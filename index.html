@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayuda a un Peludo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+        body{
+            background-color: #107E7D;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .perro{
+          max-height: 900px;
+        }
+        h5{
+          color: white;
+          font-size:xx-large;
+          font-weight: bold;
+          -webkit-text-stroke-color: black;
+          -webkit-text-stroke-width: 1px;
+        }
+        .cambiar-color{
+          color: white;
+          font-size:x-large;
+          font-weight: bold;
+          -webkit-text-stroke-color: black;
+          -webkit-text-stroke-width: 1px; 
+        }
+        .cambiar-color2{
+          color: aliceblue;
+        }
+        .contenedor3{
+          background-color: #17a2b8;
+          padding-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container-fluid mt-2">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info w-100">
+            <a class="navbar-brand" href="#">Ayuda a un Peludo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse justify-content-center" id="navbarColor01">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Nosotros
+                    <span class="sr-only">(current)</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./adopta.html">Adopta</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Colabora</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contáctanos</a>
+                </li>
+                  
+              </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="./adopta.html"><img src="./assets/img/perro1.jpg" class="perro d-block w-75 mx-auto" alt="Perro_Fernando_castillo"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Peluquin</h5>
+            <p class="cambiar-color">Bonito</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="./adopta.html"><img src="./assets/img/perro2.jpg" class="perro d-block w-75 mx-auto" alt="Perro_costa_milk"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Costa Rama</h5>
+            <p class="cambiar-color">Es como costa, pero Rama</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="./adopta.html"><img src="./assets/img/perro3.jpg" class="perro d-block w-75 mx-auto" alt="Perro_HDMI"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>VGA</h5>
+            <p class="cambiar-color">Perfecto, para personas que les gusta la tecnologia</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden"></span>
+      </button>
+    </div>
+    <footer>
+      <hr style="color: black;">
+      <div class="contenedor3">
+        <p class="cambiar-color2">En Ayuda a un Peludo, nuestra misión es conectar a los perros necesitados con familias amorosas. Si estás interesado en adoptar un perro, ¡no dudes en explorar nuestra galería de adopción! <br>
+
+          ¿Quieres colaborar con nuestra causa? Puedes ayudarnos de varias maneras: haciendo una donación, ofreciéndote como voluntario en nuestro refugio o difundiendo nuestro mensaje en tus redes sociales. <br>
+
+          Síguenos en nuestras redes sociales para mantenerte al día con nuestras actividades y perros disponibles para adopción. <br>
+
+          ¡Gracias por apoyar a los peludos necesitados! <br>
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
